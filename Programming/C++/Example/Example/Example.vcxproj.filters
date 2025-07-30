@@ -28,9 +28,6 @@
     <Filter Include="Classes\Example">
       <UniqueIdentifier>{5b066be5-3443-497c-99c8-6bbb2e3c877f}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Classes\Example\Example_01">
-      <UniqueIdentifier>{73289bb9-8944-4f9e-ba1c-c9ad031d7ac5}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Classes\Example\Example_02">
       <UniqueIdentifier>{f42da1a7-c6df-4803-9ffb-90edcc02803f}</UniqueIdentifier>
     </Filter>
@@ -42,6 +39,9 @@
     </Filter>
     <Filter Include="Classes\Training\Training_02">
       <UniqueIdentifier>{de7cfd76-ed08-4e50-b41c-8e2a00419b71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Example\Example_01">
+      <UniqueIdentifier>{73289bb9-8944-4f9e-ba1c-c9ad031d7ac5}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
