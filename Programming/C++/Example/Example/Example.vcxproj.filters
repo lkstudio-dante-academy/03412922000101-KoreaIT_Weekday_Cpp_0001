@@ -3,16 +3,61 @@
   <ItemGroup>
     <ClCompile Include="Example.cpp" />
     <ClCompile Include="Classes\Example\Example_01\E01Example_01.cpp">
-      <Filter>Classes\Example\Example_01</Filter>
+      <Filter>Classes\Example\Example_01 %28기초%29</Filter>
     </ClCompile>
     <ClCompile Include="Classes\Example\Example_02\E01Example_02.cpp">
-      <Filter>Classes\Example\Example_02</Filter>
+      <Filter>Classes\Example\Example_02 %28모던 C++ - 1%29</Filter>
     </ClCompile>
     <ClCompile Include="Classes\Training\Training_01\T01Training_01.cpp">
       <Filter>Classes\Training\Training_01</Filter>
     </ClCompile>
     <ClCompile Include="Classes\Training\Training_02\T01Training_02.cpp">
       <Filter>Classes\Training\Training_02</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Example\Example_03\E01Example_03.cpp">
+      <Filter>Classes\Example\Example_03 %28모던 C++ - 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Example\Example_04\E01Example_04.cpp">
+      <Filter>Classes\Example\Example_04 %28모던 C++ - 3%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Example\Example_05\E01Example_05.cpp">
+      <Filter>Classes\Example\Example_05 %28모던 C++ - 4%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Example\Example_06\E01Example_06.cpp">
+      <Filter>Classes\Example\Example_06 %28모던 C++ - 5%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Example\Example_07\E01Example_07.cpp">
+      <Filter>Classes\Example\Example_07 %28모던 C++ - 6%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Example\Example_08\CWidget_E08.cpp">
+      <Filter>Classes\Example\Example_08 %28클래스 - 1%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Example\Example_08\E01Example_08.cpp">
+      <Filter>Classes\Example\Example_08 %28클래스 - 1%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Example\Example_09\E01Example_09.cpp">
+      <Filter>Classes\Example\Example_09 %28클래스 - 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Example\Example_09\CWidget_E09.cpp">
+      <Filter>Classes\Example\Example_09 %28클래스 - 2%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Example\Example_10\E01Example_10.cpp">
+      <Filter>Classes\Example\Example_10 %28클래스 - 3%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Example\Example_10\CWidget_E10.cpp">
+      <Filter>Classes\Example\Example_10 %28클래스 - 3%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Example\Example_11\E01Example_11.cpp">
+      <Filter>Classes\Example\Example_11 %28클래스 - 4%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Example\Example_11\CSingleton_E11.cpp">
+      <Filter>Classes\Example\Example_11 %28클래스 - 4%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Example\Example_11\CWidget_E11.h">
+      <Filter>Classes\Example\Example_11 %28클래스 - 4%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Example\Example_11\CWidget_E11.cpp">
+      <Filter>Classes\Example\Example_11 %28클래스 - 4%29</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -28,9 +73,6 @@
     <Filter Include="Classes\Example">
       <UniqueIdentifier>{5b066be5-3443-497c-99c8-6bbb2e3c877f}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Classes\Example\Example_02">
-      <UniqueIdentifier>{f42da1a7-c6df-4803-9ffb-90edcc02803f}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Classes\Training">
       <UniqueIdentifier>{55ac49d0-b158-42e2-a4c2-dacab3d64afc}</UniqueIdentifier>
     </Filter>
@@ -40,8 +82,38 @@
     <Filter Include="Classes\Training\Training_02">
       <UniqueIdentifier>{de7cfd76-ed08-4e50-b41c-8e2a00419b71}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Classes\Example\Example_01">
+    <Filter Include="Classes\Example\Example_01 %28기초%29">
       <UniqueIdentifier>{73289bb9-8944-4f9e-ba1c-c9ad031d7ac5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Example\Example_02 %28모던 C++ - 1%29">
+      <UniqueIdentifier>{f42da1a7-c6df-4803-9ffb-90edcc02803f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Example\Example_03 %28모던 C++ - 2%29">
+      <UniqueIdentifier>{a22b7e9e-a211-49bb-9a08-b1b0e193cc3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Example\Example_04 %28모던 C++ - 3%29">
+      <UniqueIdentifier>{11e293ed-241b-4c67-bae7-91a47b630b62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Example\Example_05 %28모던 C++ - 4%29">
+      <UniqueIdentifier>{d6c45773-929e-4710-9e0e-81de50644f80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Example\Example_06 %28모던 C++ - 5%29">
+      <UniqueIdentifier>{83889911-52ec-4829-9103-1a6259ef09a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Example\Example_07 %28모던 C++ - 6%29">
+      <UniqueIdentifier>{0d41ab2a-da27-428f-9548-8e472bbcb7ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Example\Example_08 %28클래스 - 1%29">
+      <UniqueIdentifier>{1991ae9e-e817-41bb-9185-7aa404d40555}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Example\Example_09 %28클래스 - 2%29">
+      <UniqueIdentifier>{47aa1b0a-c219-4188-a31a-8089def2d040}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Example\Example_10 %28클래스 - 3%29">
+      <UniqueIdentifier>{b41c4745-f940-41d8-bb7c-19bb6e303554}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Example\Example_11 %28클래스 - 4%29">
+      <UniqueIdentifier>{709d8a36-594c-402e-92e6-3775b93dc0fb}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -49,16 +121,55 @@
       <Filter>Classes\Global\Define</Filter>
     </ClInclude>
     <ClInclude Include="Classes\Example\Example_01\E01Example_01.h">
-      <Filter>Classes\Example\Example_01</Filter>
+      <Filter>Classes\Example\Example_01 %28기초%29</Filter>
     </ClInclude>
     <ClInclude Include="Classes\Example\Example_02\E01Example_02.h">
-      <Filter>Classes\Example\Example_02</Filter>
+      <Filter>Classes\Example\Example_02 %28모던 C++ - 1%29</Filter>
     </ClInclude>
     <ClInclude Include="Classes\Training\Training_01\T01Training_01.h">
       <Filter>Classes\Training\Training_01</Filter>
     </ClInclude>
     <ClInclude Include="Classes\Training\Training_02\T01Training_02.h">
       <Filter>Classes\Training\Training_02</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example\Example_03\E01Example_03.h">
+      <Filter>Classes\Example\Example_03 %28모던 C++ - 2%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example\Example_04\E01Example_04.h">
+      <Filter>Classes\Example\Example_04 %28모던 C++ - 3%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example\Example_05\E01Example_05.h">
+      <Filter>Classes\Example\Example_05 %28모던 C++ - 4%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example\Example_06\E01Example_06.h">
+      <Filter>Classes\Example\Example_06 %28모던 C++ - 5%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example\Example_07\E01Example_07.h">
+      <Filter>Classes\Example\Example_07 %28모던 C++ - 6%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example\Example_08\CWidget_E08.h">
+      <Filter>Classes\Example\Example_08 %28클래스 - 1%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example\Example_08\E01Example_08.h">
+      <Filter>Classes\Example\Example_08 %28클래스 - 1%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example\Example_09\E01Example_09.h">
+      <Filter>Classes\Example\Example_09 %28클래스 - 2%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example\Example_09\CWidget_E09.h">
+      <Filter>Classes\Example\Example_09 %28클래스 - 2%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example\Example_10\E01Example_10.h">
+      <Filter>Classes\Example\Example_10 %28클래스 - 3%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example\Example_10\CWidget_E10.h">
+      <Filter>Classes\Example\Example_10 %28클래스 - 3%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example\Example_11\E01Example_11.h">
+      <Filter>Classes\Example\Example_11 %28클래스 - 4%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example\Example_11\CSingleton_E11.h">
+      <Filter>Classes\Example\Example_11 %28클래스 - 4%29</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
