@@ -146,6 +146,17 @@
     <ClCompile Include="Classes\Example\Example_11\CWidget_E11.cpp" />
     <ClCompile Include="Classes\Example\Example_11\CWidget_E11.h" />
     <ClCompile Include="Classes\Example\Example_11\E01Example_11.cpp" />
+    <ClCompile Include="Classes\Example\Example_12\CBase_E12.cpp" />
+    <ClCompile Include="Classes\Example\Example_12\CDerived_E12.cpp" />
+    <ClCompile Include="Classes\Example\Example_12\E01Example_12.cpp" />
+    <ClCompile Include="Classes\Example\Example_13\CBase_E13.cpp" />
+    <ClCompile Include="Classes\Example\Example_13\CDerived_E13.cpp" />
+    <ClCompile Include="Classes\Example\Example_13\E01Example_13.cpp" />
+    <ClCompile Include="Classes\Example\Example_13\CBase_E13.h" />
+    <ClCompile Include="Classes\Example\Example_14\CBase_E14.cpp" />
+    <ClCompile Include="Classes\Example\Example_14\CDerived_E14.cpp" />
+    <ClCompile Include="Classes\Example\Example_14\E01Example_14.cpp" />
+    <ClCompile Include="Classes\Example\Example_15\E01Example_15.cpp" />
     <ClCompile Include="Classes\Training\Training_01\T01Training_01.cpp">
       <DeploymentContent>false</DeploymentContent>
     </ClCompile>
@@ -174,6 +185,15 @@
     <ClInclude Include="Classes\Example\Example_10\E01Example_10.h" />
     <ClInclude Include="Classes\Example\Example_11\CSingleton_E11.h" />
     <ClInclude Include="Classes\Example\Example_11\E01Example_11.h" />
+    <ClInclude Include="Classes\Example\Example_12\CBase_E12.h" />
+    <ClInclude Include="Classes\Example\Example_12\CDerived_E12.h" />
+    <ClInclude Include="Classes\Example\Example_12\E01Example_12.h" />
+    <ClInclude Include="Classes\Example\Example_13\CDerived_E13.h" />
+    <ClInclude Include="Classes\Example\Example_13\E01Example_13.h" />
+    <ClInclude Include="Classes\Example\Example_14\CBase_E14.h" />
+    <ClInclude Include="Classes\Example\Example_14\CDerived_E14.h" />
+    <ClInclude Include="Classes\Example\Example_14\E01Example_14.h" />
+    <ClInclude Include="Classes\Example\Example_15\E01Example_15.h" />
     <ClInclude Include="Classes\Global\Define\KDefine+Global.h">
       <DeploymentContent>false</DeploymentContent>
     </ClInclude>

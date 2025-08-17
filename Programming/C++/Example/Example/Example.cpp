@@ -13,6 +13,10 @@
 #include "Classes/Example/Example_09/E01Example_09.h"
 #include "Classes/Example/Example_10/E01Example_10.h"
 #include "Classes/Example/Example_11/E01Example_11.h"
+#include "Classes/Example/Example_12/E01Example_12.h"
+#include "Classes/Example/Example_13/E01Example_13.h"
+#include "Classes/Example/Example_14/E01Example_14.h"
+#include "Classes/Example/Example_15/E01Example_15.h"
 #elif defined TRAINING
 #include "Classes/Training/Training_01/T01Training_01.h"
 #include "Classes/Training/Training_02/T01Training_02.h"
@@ -24,7 +28,7 @@ int main(int argc, char* args[])
 	srand((unsigned int)time(nullptr));
 
 #if defined EXAMPLE
-	//E01Example::E01Example_01(argc, args);
+	E01Example::E01Example_01(argc, args);
 	//E01Example::E01Example_02(argc, args);
 	//E01Example::E01Example_03(argc, args);
 	//E01Example::E01Example_04(argc, args);
@@ -34,7 +38,11 @@ int main(int argc, char* args[])
 	//E01Example::E01Example_08(argc, args);
 	//E01Example::E01Example_09(argc, args);
 	//E01Example::E01Example_10(argc, args);
-	E01Example::E01Example_11(argc, args);
+	//E01Example::E01Example_11(argc, args);
+	//E01Example::E01Example_12(argc, args);
+	//E01Example::E01Example_13(argc, args);
+	//E01Example::E01Example_14(argc, args);
+	//E01Example::E01Example_15(argc, args);
 #elif defined TRAINING
 	T01Training::T01Training_01(argc, args);
 	//T01Training::T01Training_02(argc, args);
