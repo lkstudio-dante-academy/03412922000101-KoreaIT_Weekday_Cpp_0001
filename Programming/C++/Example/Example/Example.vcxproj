@@ -156,6 +156,8 @@
     <ClCompile Include="Classes\Example\Example_14\CBase_E14.cpp" />
     <ClCompile Include="Classes\Example\Example_14\CDerived_E14.cpp" />
     <ClCompile Include="Classes\Example\Example_14\E01Example_14.cpp" />
+    <ClCompile Include="Classes\Example\Example_15\CBase_E15.cpp" />
+    <ClCompile Include="Classes\Example\Example_15\CDerived_E15.cpp" />
     <ClCompile Include="Classes\Example\Example_15\E01Example_15.cpp" />
     <ClCompile Include="Classes\Training\Training_01\T01Training_01.cpp">
       <DeploymentContent>false</DeploymentContent>
@@ -193,6 +195,8 @@
     <ClInclude Include="Classes\Example\Example_14\CBase_E14.h" />
     <ClInclude Include="Classes\Example\Example_14\CDerived_E14.h" />
     <ClInclude Include="Classes\Example\Example_14\E01Example_14.h" />
+    <ClInclude Include="Classes\Example\Example_15\CBase_E15.h" />
+    <ClInclude Include="Classes\Example\Example_15\CDerived_E15.h" />
     <ClInclude Include="Classes\Example\Example_15\E01Example_15.h" />
     <ClInclude Include="Classes\Global\Define\KDefine+Global.h">
       <DeploymentContent>false</DeploymentContent>

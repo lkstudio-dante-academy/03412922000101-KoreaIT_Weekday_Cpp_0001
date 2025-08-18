@@ -92,6 +92,12 @@
     <ClCompile Include="Classes\Example\Example_15\E01Example_15.cpp">
       <Filter>Classes\Example\Example_15 %28형변환 연산자%29</Filter>
     </ClCompile>
+    <ClCompile Include="Classes\Example\Example_15\CBase_E15.cpp">
+      <Filter>Classes\Example\Example_15 %28형변환 연산자%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Example\Example_15\CDerived_E15.cpp">
+      <Filter>Classes\Example\Example_15 %28형변환 연산자%29</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Classes">
@@ -242,6 +248,12 @@
     </ClInclude>
     <ClInclude Include="Classes\Example\Example_14\CDerived_E14.h">
       <Filter>Classes\Example\Example_14 %28추상 클래스%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example\Example_15\CBase_E15.h">
+      <Filter>Classes\Example\Example_15 %28형변환 연산자%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example\Example_15\CDerived_E15.h">
+      <Filter>Classes\Example\Example_15 %28형변환 연산자%29</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
