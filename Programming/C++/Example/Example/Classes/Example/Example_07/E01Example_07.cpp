@@ -3,7 +3,7 @@
 namespace E01Example
 {
 	/** 람다를 반환한다 */
-	std::function<void(void)> GetLambda_E07(int a_nVal);
+	std::function<void(void)> GetLambda_E07(int a_nValA, int a_nValB);
 
 	int E01Example_07(int argc, char* args[])
 	{
@@ -34,17 +34,18 @@ namespace E01Example
 
 		std::cout << "\n=====> 람다 - B <=====\n";
 
-		auto oLambdaB = GetLambda_E07(10);
+		auto oLambdaB = GetLambda_E07(10, 20);
 		oLambdaB();
 
 		return 0;
 	}
 
-	std::function<void(void)> GetLambda_E07(int a_nVal)
+	std::function<void(void)> GetLambda_E07(int a_nValA, int a_nValB)
 	{
-		return [&a_nVal](void) -> void
+		return [a_nValA, &a_nValB](void) -> void
 		{
-			std::cout << "외부 변수 : " << a_nVal << std::endl;
+			std::cout << "외부 변수 A : " << a_nValA << std::endl;
+			std::cout << "외부 변수 B : " << a_nValB << std::endl;
 		};
 	}
 }

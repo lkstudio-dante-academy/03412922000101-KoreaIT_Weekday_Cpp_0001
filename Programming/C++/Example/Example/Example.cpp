@@ -28,9 +28,9 @@ int main(int argc, char* args[])
 	srand((unsigned int)time(nullptr));
 
 #if defined EXAMPLE
-	E01Example::E01Example_01(argc, args);
+	//E01Example::E01Example_01(argc, args);
 	//E01Example::E01Example_02(argc, args);
-	//E01Example::E01Example_03(argc, args);
+	E01Example::E01Example_03(argc, args);
 	//E01Example::E01Example_04(argc, args);
 	//E01Example::E01Example_05(argc, args);
 	//E01Example::E01Example_06(argc, args);
