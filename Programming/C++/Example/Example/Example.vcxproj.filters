@@ -98,6 +98,12 @@
     <ClCompile Include="Classes\Example\Example_15\CDerived_E15.cpp">
       <Filter>Classes\Example\Example_15 %28형변환 연산자%29</Filter>
     </ClCompile>
+    <ClCompile Include="Classes\Training\Training_01\CManager_Member_T01.cpp">
+      <Filter>Classes\Training\Training_01</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Training\Training_01\CMember_T01.cpp">
+      <Filter>Classes\Training\Training_01</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Classes">
@@ -165,6 +171,15 @@
     </Filter>
     <Filter Include="Classes\Example\Example_15 %28형변환 연산자%29">
       <UniqueIdentifier>{d47442bd-5a27-44ba-a6f0-531c7f28c8ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Example\Example_16 %28연산자 오버로딩%29">
+      <UniqueIdentifier>{6cca10b6-5ed3-4c4b-901e-82dea2dc6596}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Example\Example_17 %28템플릿 - 1%29">
+      <UniqueIdentifier>{aa8ea5db-3c3a-40d4-b478-d1d69c2b515e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Example\Example_18 %28템플릿 - 2%29">
+      <UniqueIdentifier>{262b8886-31b8-444a-8668-8336315ff41d}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -254,6 +269,15 @@
     </ClInclude>
     <ClInclude Include="Classes\Example\Example_15\CDerived_E15.h">
       <Filter>Classes\Example\Example_15 %28형변환 연산자%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Training\Training_01\CMember_T01.h">
+      <Filter>Classes\Training\Training_01</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Training\Training_01\CManager_Member_T01.h">
+      <Filter>Classes\Training\Training_01</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Training\Training_01\KDefine+Training_01.h">
+      <Filter>Classes\Training\Training_01</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -30,12 +30,12 @@ int main(int argc, char* args[])
 #if defined EXAMPLE
 	//E01Example::E01Example_01(argc, args);
 	//E01Example::E01Example_02(argc, args);
-	E01Example::E01Example_03(argc, args);
+	//E01Example::E01Example_03(argc, args);
 	//E01Example::E01Example_04(argc, args);
 	//E01Example::E01Example_05(argc, args);
 	//E01Example::E01Example_06(argc, args);
 	//E01Example::E01Example_07(argc, args);
-	//E01Example::E01Example_08(argc, args);
+	E01Example::E01Example_08(argc, args);
 	//E01Example::E01Example_09(argc, args);
 	//E01Example::E01Example_10(argc, args);
 	//E01Example::E01Example_11(argc, args);
