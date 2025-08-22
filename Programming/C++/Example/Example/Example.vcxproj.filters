@@ -104,6 +104,9 @@
     <ClCompile Include="Classes\Training\Training_01\CMember_T01.cpp">
       <Filter>Classes\Training\Training_01</Filter>
     </ClCompile>
+    <ClCompile Include="Classes\Training\Training_02\CArray_T02.cpp">
+      <Filter>Classes\Training\Training_02</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Classes">
@@ -278,6 +281,9 @@
     </ClInclude>
     <ClInclude Include="Classes\Training\Training_01\KDefine+Training_01.h">
       <Filter>Classes\Training\Training_01</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Training\Training_02\CArray_T02.h">
+      <Filter>Classes\Training\Training_02</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

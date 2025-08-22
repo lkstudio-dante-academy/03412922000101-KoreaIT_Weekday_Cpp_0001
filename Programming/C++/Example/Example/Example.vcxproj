@@ -164,6 +164,7 @@
     <ClCompile Include="Classes\Training\Training_01\T01Training_01.cpp">
       <DeploymentContent>false</DeploymentContent>
     </ClCompile>
+    <ClCompile Include="Classes\Training\Training_02\CArray_T02.cpp" />
     <ClCompile Include="Classes\Training\Training_02\T01Training_02.cpp">
       <DeploymentContent>false</DeploymentContent>
     </ClCompile>
@@ -209,6 +210,7 @@
     <ClInclude Include="Classes\Training\Training_01\T01Training_01.h">
       <DeploymentContent>false</DeploymentContent>
     </ClInclude>
+    <ClInclude Include="Classes\Training\Training_02\CArray_T02.h" />
     <ClInclude Include="Classes\Training\Training_02\T01Training_02.h">
       <DeploymentContent>false</DeploymentContent>
     </ClInclude>

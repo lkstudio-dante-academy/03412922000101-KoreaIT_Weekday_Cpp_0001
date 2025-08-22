@@ -42,12 +42,11 @@ namespace T01Training
 	int CManager_Member_T01::FindMember(const std::string& a_rName)
 	{
 		auto oResult = std::find_if(m_oVectorMembers.begin(),
-			m_oVectorMembers.end(), [a_rName](CMember_T01* a_pMember) -> bool
+			m_oVectorMembers.end(), [&a_rName](CMember_T01* a_pMember) -> bool
 		{
 			return a_rName == a_pMember->GetName();
 		});
 
-		return (oResult != m_oVectorMembers.end()) ?
-			oResult - m_oVectorMembers.begin() : -1;
+		return (oResult != m_oVectorMembers.end()) ? oResult - m_oVectorMembers.begin() : -1;
 	}
 }
