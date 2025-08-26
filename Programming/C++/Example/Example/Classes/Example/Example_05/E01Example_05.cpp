@@ -12,7 +12,7 @@ namespace E01Example
 		/*
 		* 아래와 같이 get 함수를 활용하면 스마트 포인터가 지니고 있는 원시 포인터를 가져오는 것이
 		* 가능하다. (+ 즉, 스마트 포인터가 참조하고 있는 메모리 주소를 가져 온다는 것을 의미한다.)
-		* 
+		*
 		* nullptr 키워드란?
 		* - 널 (NULL) 포인터를 의미하는 키워드를 의미한다. (+ 즉, C++ 이 C 에서 사용한
 		* NULL 상수 대신에 nullptr 키워드를 통해 널 포인터를 나타낸다는 것을 알 수 있다.)
@@ -51,13 +51,13 @@ namespace E01Example
 		/*
 		* 아래와 같이 unique_ptr 은 move 함수를 통해 소유권을 이전하는 것이 가능하다. (+ 즉,
 		* unique_ptr 은 할당 연산자를 지원하지 않는다는 것을 알 수 있다.)
-		* 
+		*
 		* Ex)
 		* std::unique_ptr<int> oPtrA(new int(0));
 		* std::unique_ptr<int> oPtrB;
-		* 
+		*
 		* oPtrB = oPtrA;			<- 컴파일 에러
-		* 
+		*
 		* 위와 같이 unique_ptr 에 = (할당 연산자) 를 사용 할 경우 컴파일 에러가 발생한다는 것을
 		* 알 수 있다.
 		*/

@@ -6,12 +6,12 @@ namespace E01Example
 		:
 		CBase_E15(a_nVal, a_fVal),
 		m_oStr(a_rStr)
-	{ 
+	{
 		// Do Something
 	}
 
 	void CDerived_E15::ShowInfo(void)
-	{ 
+	{
 		CBase_E15::ShowInfo();
 		std::cout << "문자열 : " << m_oStr << std::endl;
 	}

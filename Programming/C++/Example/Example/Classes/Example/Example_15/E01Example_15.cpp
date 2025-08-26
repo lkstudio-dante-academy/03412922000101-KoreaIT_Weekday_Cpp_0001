@@ -20,7 +20,7 @@ namespace E01Example
 		/*
 		* 아래와 같이 dynamic_cast 연산자는 안전한 다운 캐스팅을 지원하기 때문에
 		* 형변환에 실패 할 경우 NULL 포인터가 반환 되는 것을 알 수 있다.
-		* 
+		*
 		* 단, dynamic_cast 연산자는 내부적으로 RTTI (Runtime Type Information) 를 활용해서
 		* 캐스팅 가능 여부를 판단하기 때문에 가상 함수가 반드시 1 개 이상 구현 되어있어야한다.
 		* (+ 즉, RTTI 는 가상 함수 테이블을 기반으로 생성 된다는 것을 알 수 있다.)

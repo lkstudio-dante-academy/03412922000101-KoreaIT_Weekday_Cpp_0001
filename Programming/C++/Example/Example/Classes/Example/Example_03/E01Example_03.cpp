@@ -34,7 +34,7 @@ namespace E01Example
 		delete[] pnValues;
 		return 0;
 	}
-	
+
 	void SetupValues_E03(int a_pnValues[], int a_nSize)
 	{
 		for(int i = 0; i < a_nSize; ++i)
@@ -42,7 +42,7 @@ namespace E01Example
 			a_pnValues[i] = rand() % 99 + 1;
 		}
 	}
-	
+
 	void PrintValues_E03(int a_pnValues[], int a_nSize)
 	{
 		for(int i = 0; i < a_nSize; ++i)

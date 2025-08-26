@@ -6,7 +6,7 @@ namespace E01Example
 		:
 		CBase_E13(a_nVal, a_fVal),
 		m_oStr(a_rStr)
-	{ 
+	{
 		// Do Something
 	}
 
@@ -16,14 +16,14 @@ namespace E01Example
 	}
 
 	void CDerived_E13::ShowInfo(void)
-	{ 
+	{
 		std::cout << "문자열 : " << m_oStr << std::endl;
 	}
 
 	void CDerived_E13::ShowInfo_Virtual(void)
-	{ 
+	{
 		/*
-		* 아래와 같이 부모 클래스에 존재하는 동일한 이름의 멤버에 접근하기 위해서는 
+		* 아래와 같이 부모 클래스에 존재하는 동일한 이름의 멤버에 접근하기 위해서는
 		* :: (범위 지정 연산자) 를 활용해야한다. (+ 즉, this 키워드를 통해 접근 할 경우
 		* 멤버 접근에 대한 우선 순위는 자식 클래스가 더 높기 때문에 부모 클래스에 존재하는 동일한
 		* 이름의 멤버에 접근하는 것이 불가능하다는 것을 알 수 있다.)

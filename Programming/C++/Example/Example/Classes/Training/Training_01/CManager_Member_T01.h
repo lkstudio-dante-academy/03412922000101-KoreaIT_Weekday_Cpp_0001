@@ -31,6 +31,11 @@ namespace T01Training
 		/** 회원을 탐색한다 */
 		int FindMember(const std::string& a_rName);
 
+	public:			// public 접근 함수
+
+		/** 인스턴스를 반환한다 */
+		static CManager_Member_T01* GetInst(void);
+
 	private:			// private 변수
 
 		std::vector<CMember_T01*> m_oVectorMembers;

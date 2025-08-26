@@ -4,7 +4,7 @@
 namespace T01Training
 {
 	CManager_Member_T01::~CManager_Member_T01(void)
-	{ 
+	{
 		for(auto pMember : m_oVectorMembers)
 		{
 			SAFE_DELETE(pMember);
@@ -25,13 +25,13 @@ namespace T01Training
 	}
 
 	void CManager_Member_T01::SearchMember(const std::string& a_rName)
-	{ 
+	{
 		int nResult = this->FindMember(a_rName);
 		m_oVectorMembers[nResult]->ShowInfo();
 	}
 
 	void CManager_Member_T01::ShowMembers_All(void)
-	{ 
+	{
 		for(auto pMember : m_oVectorMembers)
 		{
 			pMember->ShowInfo();
@@ -48,5 +48,11 @@ namespace T01Training
 		});
 
 		return (oResult != m_oVectorMembers.end()) ? oResult - m_oVectorMembers.begin() : -1;
+	}
+
+	CManager_Member_T01* CManager_Member_T01::GetInst(void)
+	{
+		static CManager_Member_T01 oInst;
+		return &oInst;
 	}
 }

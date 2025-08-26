@@ -44,6 +44,7 @@
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
+    <EnableUnitySupport>true</EnableUnitySupport>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
@@ -159,6 +160,10 @@
     <ClCompile Include="Classes\Example\Example_15\CBase_E15.cpp" />
     <ClCompile Include="Classes\Example\Example_15\CDerived_E15.cpp" />
     <ClCompile Include="Classes\Example\Example_15\E01Example_15.cpp" />
+    <ClCompile Include="Classes\Example\Example_16\CWidget_E16.cpp" />
+    <ClCompile Include="Classes\Example\Example_16\E01Example_16.cpp" />
+    <ClCompile Include="Classes\Example\Example_17\E01Example_17.cpp" />
+    <ClCompile Include="Classes\Example\Example_18\E01Example_18.cpp" />
     <ClCompile Include="Classes\Training\Training_01\CManager_Member_T01.cpp" />
     <ClCompile Include="Classes\Training\Training_01\CMember_T01.cpp" />
     <ClCompile Include="Classes\Training\Training_01\T01Training_01.cpp">
@@ -168,6 +173,10 @@
     <ClCompile Include="Classes\Training\Training_02\T01Training_02.cpp">
       <DeploymentContent>false</DeploymentContent>
     </ClCompile>
+    <ClCompile Include="Classes\Training\Training_03\T01Training_03.cpp" />
+    <ClCompile Include="Classes\Training\Training_04\CCanvas_T04.cpp" />
+    <ClCompile Include="Classes\Training\Training_04\CShape_T04.cpp" />
+    <ClCompile Include="Classes\Training\Training_04\T01Training_04.cpp" />
     <ClCompile Include="Example.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -201,6 +210,10 @@
     <ClInclude Include="Classes\Example\Example_15\CBase_E15.h" />
     <ClInclude Include="Classes\Example\Example_15\CDerived_E15.h" />
     <ClInclude Include="Classes\Example\Example_15\E01Example_15.h" />
+    <ClInclude Include="Classes\Example\Example_16\CWidget_E16.h" />
+    <ClInclude Include="Classes\Example\Example_16\E01Example_16.h" />
+    <ClInclude Include="Classes\Example\Example_17\E01Example_17.h" />
+    <ClInclude Include="Classes\Example\Example_18\E01Example_18.h" />
     <ClInclude Include="Classes\Global\Define\KDefine+Global.h">
       <DeploymentContent>false</DeploymentContent>
     </ClInclude>
@@ -214,6 +227,11 @@
     <ClInclude Include="Classes\Training\Training_02\T01Training_02.h">
       <DeploymentContent>false</DeploymentContent>
     </ClInclude>
+    <ClInclude Include="Classes\Training\Training_03\T01Training_03.h" />
+    <ClInclude Include="Classes\Training\Training_04\CCanvas_T04.h" />
+    <ClInclude Include="Classes\Training\Training_04\CShape_T04.h" />
+    <ClInclude Include="Classes\Training\Training_04\KDefine+Training_04.h" />
+    <ClInclude Include="Classes\Training\Training_04\T01Training_04.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

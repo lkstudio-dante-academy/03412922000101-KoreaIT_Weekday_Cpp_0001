@@ -6,7 +6,7 @@ namespace E01Example
 		:
 		m_nVal(a_nVal),
 		m_fVal(a_fVal)
-	{ 
+	{
 		// Do Something
 	}
 

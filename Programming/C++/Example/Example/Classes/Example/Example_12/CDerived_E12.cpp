@@ -12,17 +12,17 @@ namespace E01Example
 		CBase_E12(a_nVal, a_fVal),
 
 		m_oStr(a_rStr)
-	{ 
+	{
 		// Do Something
 	}
 
 	CDerived_E12::~CDerived_E12(void)
-	{ 
+	{
 		std::cout << "CDerived::~CDerived(void) 소멸자 호출!\n";
 	}
 
 	void CDerived_E12::ShowInfo_Child(void)
-	{ 
+	{
 		/*
 		* 아래와 같이 자식 클래스는 부모 클래스에 정의 된 멤버에 접근하는 것이 가능하다. (+ 즉,
 		* 자식 클래스를 통해 생성 된 객체 내부에는 부모 클래스에 정의한 멤버도 존재한다는 것을
