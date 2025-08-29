@@ -177,9 +177,12 @@
     <ClCompile Include="Classes\Training\Training_04\CCanvas_T04.cpp" />
     <ClCompile Include="Classes\Training\Training_04\CShape_T04.cpp" />
     <ClCompile Include="Classes\Training\Training_04\T01Training_04.cpp" />
+    <ClCompile Include="Classes\Training\Training_05\CList_Linked_T05.cpp" />
+    <ClCompile Include="Classes\Training\Training_05\T01Training_05.cpp" />
     <ClCompile Include="Example.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="C:\Users\lkstudiodante\Downloads\03412922000101-KoreaIT_Weekday_Special_Cpp_0001\Programming\C++\Example\Example\Classes\Example\Example_17\Func+Example_17.h" />
     <ClInclude Include="Classes\Example\Example_01\E01Example_01.h">
       <DeploymentContent>false</DeploymentContent>
     </ClInclude>
@@ -213,6 +216,7 @@
     <ClInclude Include="Classes\Example\Example_16\CWidget_E16.h" />
     <ClInclude Include="Classes\Example\Example_16\E01Example_16.h" />
     <ClInclude Include="Classes\Example\Example_17\E01Example_17.h" />
+    <ClInclude Include="Classes\Example\Example_18\CArray_E18.h" />
     <ClInclude Include="Classes\Example\Example_18\E01Example_18.h" />
     <ClInclude Include="Classes\Global\Define\KDefine+Global.h">
       <DeploymentContent>false</DeploymentContent>
@@ -232,6 +236,12 @@
     <ClInclude Include="Classes\Training\Training_04\CShape_T04.h" />
     <ClInclude Include="Classes\Training\Training_04\KDefine+Training_04.h" />
     <ClInclude Include="Classes\Training\Training_04\T01Training_04.h" />
+    <ClInclude Include="Classes\Training\Training_05\CList_Linked_T05.h" />
+    <ClInclude Include="Classes\Training\Training_05\T01Training_05.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\lkstudiodante\Downloads\03412922000101-KoreaIT_Weekday_Special_Cpp_0001\Programming\C++\Example\Example\Classes\Example\Example_17\Func+Example_17.inl" />
+    <None Include="Classes\Example\Example_18\CArray_E18.inl" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

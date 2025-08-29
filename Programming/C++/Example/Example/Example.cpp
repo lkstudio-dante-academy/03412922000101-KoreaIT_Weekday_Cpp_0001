@@ -21,6 +21,7 @@
 #include "Classes/Training/Training_02/T01Training_02.h"
 #include "Classes/Training/Training_03/T01Training_03.h"
 #include "Classes/Training/Training_04/T01Training_04.h"
+#include "Classes/Training/Training_05/T01Training_05.h"
 
 /** 메인 함수 */
 int main(int argc, char* args[])
@@ -42,14 +43,15 @@ int main(int argc, char* args[])
 	//E01Example::E01Example_13(argc, args);
 	//E01Example::E01Example_14(argc, args);
 	//E01Example::E01Example_15(argc, args);
-	E01Example::E01Example_16(argc, args);
+	//E01Example::E01Example_16(argc, args);
 	//E01Example::E01Example_17(argc, args);
-	//E01Example::E01Example_18(argc, args);
+	E01Example::E01Example_18(argc, args);
 
 	//T01Training::T01Training_01(argc, args);
 	//T01Training::T01Training_02(argc, args);
 	//T01Training::T01Training_03(argc, args);
 	//T01Training::T01Training_04(argc, args);
+	//T01Training::T01Training_05(argc, args);
 
 	return 0;
 }

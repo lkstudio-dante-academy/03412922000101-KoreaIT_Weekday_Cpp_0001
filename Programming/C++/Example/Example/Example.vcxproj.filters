@@ -131,6 +131,12 @@
     <ClCompile Include="Classes\Example\Example_16\CWidget_E16.cpp">
       <Filter>Classes\Example\Example_16 %28연산자 오버로딩%29</Filter>
     </ClCompile>
+    <ClCompile Include="Classes\Training\Training_05\CList_Linked_T05.cpp">
+      <Filter>Classes\Training\Training_05</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\Training\Training_05\T01Training_05.cpp">
+      <Filter>Classes\Training\Training_05</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Classes">
@@ -213,6 +219,9 @@
     </Filter>
     <Filter Include="Classes\Training\Training_04">
       <UniqueIdentifier>{ae412380-5d4a-42ca-81a8-55680fea4990}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Training\Training_05">
+      <UniqueIdentifier>{1bfcce42-d5fc-40b5-aa32-e635870ff280}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -342,5 +351,25 @@
     <ClInclude Include="Classes\Example\Example_16\CWidget_E16.h">
       <Filter>Classes\Example\Example_16 %28연산자 오버로딩%29</Filter>
     </ClInclude>
+    <ClInclude Include="Classes\Training\Training_05\CList_Linked_T05.h">
+      <Filter>Classes\Training\Training_05</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Training\Training_05\T01Training_05.h">
+      <Filter>Classes\Training\Training_05</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\lkstudiodante\Downloads\03412922000101-KoreaIT_Weekday_Special_Cpp_0001\Programming\C++\Example\Example\Classes\Example\Example_17\Func+Example_17.h">
+      <Filter>Classes\Example\Example_17 %28템플릿 - 1%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\Example\Example_18\CArray_E18.h">
+      <Filter>Classes\Example\Example_18 %28템플릿 - 2%29</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\lkstudiodante\Downloads\03412922000101-KoreaIT_Weekday_Special_Cpp_0001\Programming\C++\Example\Example\Classes\Example\Example_17\Func+Example_17.inl">
+      <Filter>Classes\Example\Example_17 %28템플릿 - 1%29</Filter>
+    </None>
+    <None Include="Classes\Example\Example_18\CArray_E18.inl">
+      <Filter>Classes\Example\Example_18 %28템플릿 - 2%29</Filter>
+    </None>
   </ItemGroup>
 </Project>

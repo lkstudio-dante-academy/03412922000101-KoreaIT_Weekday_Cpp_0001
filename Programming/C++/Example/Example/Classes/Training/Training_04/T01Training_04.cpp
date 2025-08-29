@@ -84,7 +84,9 @@ namespace T01Training
 	std::shared_ptr<CShape_T04> CreateShape_T04(EMenu_T04 a_eMenu)
 	{
 		std::random_device oRandom;
-		std::uniform_int_distribution<int> oUniform((int)EColor_T04::RED, (int)EColor_T04::BLUE);
+
+		std::uniform_int_distribution<int> oUniform((int)EColor_T04::RED, 
+			(int)EColor_T04::BLUE);
 
 		auto eColor = (EColor_T04)oUniform(oRandom);
 
